@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-juega/static/css/main.bafbe215.css",
-    "main.js": "/landing-juega/static/js/main.5e9fd2ca.js",
+    "main.js": "/landing-juega/static/js/main.99e302d4.js",
     "static/js/787.123bca69.chunk.js": "/landing-juega/static/js/787.123bca69.chunk.js",
     "static/media/video7.mp4": "/landing-juega/static/media/video7.5b855a071475c532d310.mp4",
     "static/media/video12.mp4": "/landing-juega/static/media/video12.a81dc4b4ac7a2012c3b2.mp4",
@@ -28,11 +28,11 @@
     "static/media/play.png": "/landing-juega/static/media/play.dc61ecf90dad1a64179e.png",
     "index.html": "/landing-juega/index.html",
     "main.bafbe215.css.map": "/landing-juega/static/css/main.bafbe215.css.map",
-    "main.5e9fd2ca.js.map": "/landing-juega/static/js/main.5e9fd2ca.js.map",
+    "main.99e302d4.js.map": "/landing-juega/static/js/main.99e302d4.js.map",
     "787.123bca69.chunk.js.map": "/landing-juega/static/js/787.123bca69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bafbe215.css",
-    "static/js/main.5e9fd2ca.js"
+    "static/js/main.99e302d4.js"
   ]
 }
