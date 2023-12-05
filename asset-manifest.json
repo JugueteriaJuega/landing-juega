@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-juega/static/css/main.a895999e.css",
-    "main.js": "/landing-juega/static/js/main.7c0c907b.js",
+    "main.js": "/landing-juega/static/js/main.980cf7d8.js",
     "static/js/787.123bca69.chunk.js": "/landing-juega/static/js/787.123bca69.chunk.js",
     "static/media/video7.mp4": "/landing-juega/static/media/video7.5b855a071475c532d310.mp4",
     "static/media/video12.mp4": "/landing-juega/static/media/video12.a81dc4b4ac7a2012c3b2.mp4",
@@ -21,18 +21,18 @@
     "static/media/13.png": "/landing-juega/static/media/13.f643cb772a65484fc35d.png",
     "static/media/5.png": "/landing-juega/static/media/5.81a3e9301b2642e26178.png",
     "static/media/12.png": "/landing-juega/static/media/12.a0d86b5f20a1c7152c05.png",
-    "static/media/00.png": "/landing-juega/static/media/00.c1148cac1aecfa37c25a.png",
-    "static/media/0.png": "/landing-juega/static/media/0.82154bb817b0e67c067e.png",
+    "static/media/00.png": "/landing-juega/static/media/00.26b17bdcfc4d3ffce726.png",
+    "static/media/0.png": "/landing-juega/static/media/0.708cbb28c6f259f588f8.png",
     "static/media/whatsapp.png": "/landing-juega/static/media/whatsapp.958ba88839ff6fcb5f2f.png",
     "static/media/messenger.png": "/landing-juega/static/media/messenger.6e4994e48e52315efe8c.png",
     "static/media/play.png": "/landing-juega/static/media/play.dc61ecf90dad1a64179e.png",
     "index.html": "/landing-juega/index.html",
     "main.a895999e.css.map": "/landing-juega/static/css/main.a895999e.css.map",
-    "main.7c0c907b.js.map": "/landing-juega/static/js/main.7c0c907b.js.map",
+    "main.980cf7d8.js.map": "/landing-juega/static/js/main.980cf7d8.js.map",
     "787.123bca69.chunk.js.map": "/landing-juega/static/js/787.123bca69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a895999e.css",
-    "static/js/main.7c0c907b.js"
+    "static/js/main.980cf7d8.js"
   ]
 }
