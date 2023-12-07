@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/landing-juega/static/css/main.8221d0ed.css",
-    "main.js": "/landing-juega/static/js/main.3164807f.js",
+    "main.js": "/landing-juega/static/js/main.1e70bb72.js",
     "static/js/787.123bca69.chunk.js": "/landing-juega/static/js/787.123bca69.chunk.js",
     "static/media/video14.mp4": "/landing-juega/static/media/video14.5c553425782372c8aa2e.mp4",
     "static/media/video3.mp4": "/landing-juega/static/media/video3.a3e6eb7d6d5753414e39.mp4",
+    "static/media/video8.mp4": "/landing-juega/static/media/video8.6a081748c6cf15f10db6.mp4",
     "static/media/video7.mp4": "/landing-juega/static/media/video7.5b855a071475c532d310.mp4",
     "static/media/video9.mp4": "/landing-juega/static/media/video9.93652bf9798f93fc3967.mp4",
     "static/media/video12.mp4": "/landing-juega/static/media/video12.a81dc4b4ac7a2012c3b2.mp4",
-    "static/media/video8.mp4": "/landing-juega/static/media/video8.5f85d90c3051897e5fa4.mp4",
     "static/media/video4.mp4": "/landing-juega/static/media/video4.1dbb57d9846546ae761b.mp4",
     "static/media/video1.mp4": "/landing-juega/static/media/video1.ea0a9a67e42c86ae03dc.mp4",
     "static/media/8.png": "/landing-juega/static/media/8.7bfe9a4f75b502e5215c.png",
@@ -35,11 +35,11 @@
     "static/media/arrowUpDown.png": "/landing-juega/static/media/arrowUpDown.e624ca0a7d2c61c4119b.png",
     "index.html": "/landing-juega/index.html",
     "main.8221d0ed.css.map": "/landing-juega/static/css/main.8221d0ed.css.map",
-    "main.3164807f.js.map": "/landing-juega/static/js/main.3164807f.js.map",
+    "main.1e70bb72.js.map": "/landing-juega/static/js/main.1e70bb72.js.map",
     "787.123bca69.chunk.js.map": "/landing-juega/static/js/787.123bca69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8221d0ed.css",
-    "static/js/main.3164807f.js"
+    "static/js/main.1e70bb72.js"
   ]
 }
