@@ -14,6 +14,11 @@ const Popup = ({ isOpen, onClose, children }) => {
         bottom: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.85)',
         zIndex: 1000,
+        height: '110vh',
+        display: 'flex',
+        alignItems:'center',
+        justifyItems: 'center',
+        justifyContent: 'center',
     };
 
     const contentStyle = {
@@ -26,13 +31,18 @@ const Popup = ({ isOpen, onClose, children }) => {
         backgroundColor: '#000000',
         padding: '0px',
         zIndex: 1001,
-        display: 'flex'
+        display: 'flex',
+        alignItems:'center',
+        justifyItems: 'center',
+        justifyContent: 'center',
     };
 
     const botonStyle = {
         position: 'absolute',
-        top: '0',
-        right: '0',
+        top: '16px',
+        right: '16px',
+        borderRadius: '8px',
+        zIndex: 1005,
     }
     return (
         <div style={overlayStyle} onClick={onClose}>

@@ -9,7 +9,7 @@ const BotonWhatsApp = ({ onOpenPopup, messageWhapp }) => {
         position: 'absolute',
         bottom: '9%', 
         right: '20px',      
-        zIndex: 1000,       
+        zIndex: 999,       
         cursor: 'pointer', 
         display: 'flex',
         flexDirection: 'row',

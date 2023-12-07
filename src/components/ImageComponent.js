@@ -45,7 +45,7 @@ const ImageComponent = ({ src, alt, className }) => {
         overflow: 'hidden',
         scroll: 'none',
         borderRadius: '16px',
-        backgroundColor: colors[0]//dominantColor
+        //backgroundColor: colors[0]//dominantColor
     };
     return (
         <div style={containertyle}>
