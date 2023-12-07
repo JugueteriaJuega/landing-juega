@@ -28,7 +28,9 @@ const Page = forwardRef(({ index, backColor, className, src, shouldAnimate, whap
             <Popup isOpen={isPopupOpen} onClose={togglePopup}>
                 <VideoPlayer key={fileVideo} src={fileVideo} width={percentageVideo} height="auto" controls={true} />
             </Popup>
-            <BotonWhatsApp onOpenPopup={togglePopup} messageWhapp={whappMessage} />
+            {whappMessage !== "Hola !!!" && (
+                <BotonWhatsApp onOpenPopup={togglePopup} messageWhapp={whappMessage} />
+            )}
         </div>
     );
 });

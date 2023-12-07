@@ -8,7 +8,9 @@ import BarNavigateV2 from './BarNavigateV2';
 import Popup from './Popup';
 import VideoPlayer from './VideoPlayer';
 import ExpandableComponent from './ExpandableComponent';
+import FloatingDiv from './FloatingDiv';
 
+import img000 from '../resources/000.png';
 import img0 from '../resources/0.png';
 import img00 from '../resources/00.png';
 import img1 from '../resources/1.png';
@@ -36,7 +38,7 @@ import video12 from "../resources/video/video12.mp4";
 import video14 from "../resources/video/video14.mp4";
 
 const arrayVideo = [
-  video1, video1,video3,video4,'','',video7,video8,video9,'','','','',video12,'',video14
+  '',video1, video1,video3,video4,'','',video7,video8,video9,'','','','',video12,'',video14
 ];
 const styleLanding = {
   minWidth: '360px',
@@ -61,13 +63,13 @@ const LandingJuegav2 = () => {
     fullpageApi.moveTo(pageIndex);
     };
 
-    const arrayWhappMessage = ["el DINOSAUR SCOOTER","el DINOSAUR SCOOTER","la MUSIC PRINCESS","el DINO BEBE","el SLIDEBALL","la BUBBLE GUN","el STUNT CAR","el ELECTRIC DINOSAUR","el ATOMIZING DINOSAUR","la MODISH GOOD LUCK (PET 1)","la MODISH GOOD LUCK (STYLE 1)","la MODISH GOOD LUCK (STYLE 2)","la MODISH GOOD LUCK (PET 2)","la DIY GUN","la P18C","la P90"]
-    const colores = ["#12968b","#12968b","#f48acc","#13b8c3","#e0c33c","#c4a9b8","#1f1f1f","#1686b0","#ca973b","#ffd457","#ffd457","#ffd457","#ffd457","#2e2e2e","#2e2e2e","#2e2e2e"]
-    const percentageVideo = ["100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","80%","100%","100%"];
+    const arrayWhappMessage = ["Hola !!!","el DINOSAUR SCOOTER","el DINOSAUR SCOOTER","la MUSIC PRINCESS","el DINO BEBE","el SLIDEBALL","la BUBBLE GUN","el STUNT CAR","el ELECTRIC DINOSAUR","el ATOMIZING DINOSAUR","la MODISH GOOD LUCK (PET 1)","la MODISH GOOD LUCK (STYLE 1)","la MODISH GOOD LUCK (STYLE 2)","la MODISH GOOD LUCK (PET 2)","la DIY GUN","la P18C","la P90","Hola !!!"]
+    const colores = ["2e2e2e","#12968b","#12968b","#f48acc","#13b8c3","#e0c33c","#c4a9b8","#1f1f1f","#1686b0","#ca973b","#ffd457","#ffd457","#ffd457","#ffd457","#2e2e2e","#2e2e2e","#2e2e2e","#2e2e2e"]
+    const percentageVideo = ["100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","100%","80%","100%","100%","100%"];
 
     return (
         <div style={styleLanding}>
-            {[img0, img00, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14].map((img, index) => (
+            {[img000, img0, img00, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img000].map((img, index) => (
                 <PageV2
                     key={index}
                     index={index}
@@ -79,8 +81,8 @@ const LandingJuegav2 = () => {
                     percentageVideo ={percentageVideo[index]}
                 />
             ))}
-            
-              <ExpandableComponent />
+            <FloatingDiv />
+            <BarNavigateV2 onNavigate={navigateToPage} />
         </div>
   );
 };

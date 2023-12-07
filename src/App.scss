@@ -218,9 +218,6 @@ h1{
   padding-bottom: 8px;
   overflow: hidden;
   overflow-y: 'auto';
-  display: 'grid';
-  grid-template-columns: 'repeat(3, 1fr)'; // Ajusta esto para el número de columnas
-  gap: '10px';
   &-A{
     top: calc(18%);
     animation: animOpacityShow 0.35s ease-in-out;
@@ -243,11 +240,39 @@ h1{
 }
 
 .itemNavBarStyle{
-  height: 32px;
-  width: 32px;
+  height: 100px;
+  width: 100px;
   border-radius: 8px;
   margin-top: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.floatingDiv{
+  bottom: calc(10% - 25px);
+  animation: animationFloatingDiv 5s ease-in-out forwards;
+}
+
+@keyframes animationFloatingDiv {
+  0%{
+    opacity: 0;
+    bottom: calc(10% - 25px);
+  }
+  25%{
+    opacity: 1;
+    bottom: calc(10% - 50px);
+  }
+  50%{
+    opacity: 1;
+    bottom: calc(10% - 25px);
+  }
+  75%{
+    opacity: 1;
+    bottom: calc(10% - 50px);
+  }
+  100%{
+    opacity: 0;
+    bottom: calc(10% - 25px);
+  }
 }
