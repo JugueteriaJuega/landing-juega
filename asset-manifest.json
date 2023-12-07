@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-juega/static/css/main.a895999e.css",
-    "main.js": "/landing-juega/static/js/main.aa4cd3d4.js",
+    "main.css": "/landing-juega/static/css/main.8221d0ed.css",
+    "main.js": "/landing-juega/static/js/main.ce1be944.js",
     "static/js/787.123bca69.chunk.js": "/landing-juega/static/js/787.123bca69.chunk.js",
     "static/media/video14.mp4": "/landing-juega/static/media/video14.5c553425782372c8aa2e.mp4",
     "static/media/video3.mp4": "/landing-juega/static/media/video3.a3e6eb7d6d5753414e39.mp4",
@@ -19,7 +19,7 @@
     "static/media/00.png": "/landing-juega/static/media/00.26b17bdcfc4d3ffce726.png",
     "static/media/0.png": "/landing-juega/static/media/0.708cbb28c6f259f588f8.png",
     "static/media/7.png": "/landing-juega/static/media/7.b0e0726d0379f719ddb5.png",
-    "static/media/6.png": "/landing-juega/static/media/6.05d9d27224ff4a51bcca.png",
+    "static/media/6.png": "/landing-juega/static/media/6.3fd130f0905cf820c818.png",
     "static/media/4.png": "/landing-juega/static/media/4.90636e15ec7ba48b4eda.png",
     "static/media/1.png": "/landing-juega/static/media/1.773ca00dd0680cae815b.png",
     "static/media/2.png": "/landing-juega/static/media/2.d20525a0936c1ce3c104.png",
@@ -28,15 +28,18 @@
     "static/media/5.png": "/landing-juega/static/media/5.23b5ae7f89445fc26008.png",
     "static/media/12.png": "/landing-juega/static/media/12.94f8877be17951350dbe.png",
     "static/media/whatsapp.png": "/landing-juega/static/media/whatsapp.958ba88839ff6fcb5f2f.png",
+    "static/media/000.png": "/landing-juega/static/media/000.f8a63868013345549be8.png",
+    "static/media/nav1.png": "/landing-juega/static/media/nav1.ccb7fabc601c7a69797c.png",
     "static/media/messenger.png": "/landing-juega/static/media/messenger.6e4994e48e52315efe8c.png",
     "static/media/play.png": "/landing-juega/static/media/play.dc61ecf90dad1a64179e.png",
+    "static/media/arrowUpDown.png": "/landing-juega/static/media/arrowUpDown.e624ca0a7d2c61c4119b.png",
     "index.html": "/landing-juega/index.html",
-    "main.a895999e.css.map": "/landing-juega/static/css/main.a895999e.css.map",
-    "main.aa4cd3d4.js.map": "/landing-juega/static/js/main.aa4cd3d4.js.map",
+    "main.8221d0ed.css.map": "/landing-juega/static/css/main.8221d0ed.css.map",
+    "main.ce1be944.js.map": "/landing-juega/static/js/main.ce1be944.js.map",
     "787.123bca69.chunk.js.map": "/landing-juega/static/js/787.123bca69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a895999e.css",
-    "static/js/main.aa4cd3d4.js"
+    "static/css/main.8221d0ed.css",
+    "static/js/main.ce1be944.js"
   ]
 }
