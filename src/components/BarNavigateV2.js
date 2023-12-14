@@ -54,7 +54,7 @@ const BarNavigate = ({ onNavigate }) => {
                                 fontWeight: 'bold',
                                 }}>
                             <p>
-                                <a href={'#NavPage' + index} style={styleLink}>
+                                <a href={'#NavPage' + (index + 1)} style={styleLink}>
                                     {index + 1}
                                 </a>
                             </p>
@@ -75,7 +75,7 @@ const BarNavigate = ({ onNavigate }) => {
                                 fontWeight: 'bold',
                                 }}>
                             <p>
-                                <a href={'#NavPage' + index} style={styleLink}>
+                                <a href={'#NavPage' + (index + 1)} style={styleLink}>
                                     {index + 1}
                                 </a>
                             </p>

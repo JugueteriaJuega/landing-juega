@@ -18,8 +18,9 @@ const VideoPlayer = ({ src, width, height, controls }) => {
         overflow: 'Hidden'
     }
     if (!src) {
-        return <div style={noVideoStyle}><div className="novideoTag">NoVideo</div></div>; // Mensaje cuando no hay video
+        return <div style={noVideoStyle}><div className="novideoTag" >NoVideo</div></div>; // Mensaje cuando no hay video
     }
+
     return (
         <video style={videoStyle} width={width} height={height} controls={controls} autoPlay className="video-player">
             <source src={src} type="video/mp4" />

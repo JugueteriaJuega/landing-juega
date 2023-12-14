@@ -1,3 +1,4 @@
+// componente Background.js
 import React from 'react';
 import ImageComponent from './ImageComponent';
 

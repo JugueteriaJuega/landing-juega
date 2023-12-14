@@ -17,7 +17,7 @@ const ImageComponent = ({ src, alt, className }) => {
 
             const imageData = ctx.getImageData(0, 0, img.width, img.height);
             const data = imageData.data;
-            console.log("colores: ", data.length);
+            //console.log("colores: ", data.length);
             let colorSample = `rgb(${data[0]}, ${data[1]}, ${data[2]})`;
             setColors(prevColors => [...prevColors, colorSample]);
         };

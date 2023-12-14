@@ -1,5 +1,5 @@
 // Componente BotonWhatsApp.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import whatsappIcon from '../resources/icons/whatsapp.png';
 import messengerIcon from '../resources/icons/messenger.png';
 import playIcon from '../resources/icons/play.png';
@@ -33,7 +33,7 @@ const BotonWhatsApp = ({ onOpenPopup, messageWhapp }) => {
     }
 
     return (
-        <div style={bannerStyle}>
+        <div className='botonWhapp' style={bannerStyle} >
             <a href={`https://wa.me/51920212623?text=Juega !!! ... Quiero ${messageWhapp}`} target='_blank'>
                 <img src={whatsappIcon} className='borderAnimation-whatsapp' alt="WhatsApp" height = '100%' style={linkStyle} />
             </a>

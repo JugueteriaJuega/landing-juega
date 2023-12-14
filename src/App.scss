@@ -136,10 +136,10 @@ h1{
     box-shadow: 0px 0px 0px 0px #efb71000;
   }
 }
-.backStyle{
+.spinner{
   transform: scale(1);
   transition: all 0.75s ease-in-out;
-  animation: animationBackStyle 3.5s ease-in-out infinite;
+  animation: animationSpinner 3.5s ease-in-out infinite;
   .divPoint{
     height: 10px;
     width: 10px;
@@ -169,36 +169,36 @@ h1{
   }
 }
 
-@keyframes animationBackStyle {
+@keyframes animationSpinner {
   0%{
     transform: scale(1) rotate(0deg);
   }
   10%{
-    transform: scale(1.3) rotate(0deg);
+    transform: scale(1.1) rotate(0deg);
   }
   20%{
-    transform: scale(1.3) rotate(45deg);
+    transform: scale(1.1) rotate(45deg);
   }
   30%{
     transform: scale(1) rotate(45deg);
   }
   40%{
-    transform: scale(1.3) rotate(45deg);
+    transform: scale(1.1) rotate(45deg);
   }
   50%{
-    transform: scale(1.3) rotate(90deg);
+    transform: scale(1.1) rotate(90deg);
   }
   60%{
-    transform: scale(1.3) rotate(90deg);
+    transform: scale(1.1) rotate(90deg);
   }
   70%{
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
   }
   80%{
-    transform: scale(1.3) rotate(180deg);
+    transform: scale(1.1) rotate(180deg);
   }
   90%{
-    transform: scale(1.3) rotate(0deg);
+    transform: scale(1.1) rotate(0deg);
   }
   100%{
     transform: scale(1) rotate(0deg);
@@ -250,29 +250,75 @@ h1{
 }
 
 .floatingDiv{
-  bottom: calc(10% - 25px);
-  animation: animationFloatingDiv 5s ease-in-out forwards;
+  bottom: calc(15% - 25px);
+  animation: animationFloatingDiv 2s ease-in-out forwards;
 }
 
 @keyframes animationFloatingDiv {
   0%{
     opacity: 0;
-    bottom: calc(10% - 25px);
+    bottom: calc(15% - 25px);
   }
   25%{
     opacity: 1;
-    bottom: calc(10% - 50px);
+    bottom: calc(15% - 50px);
   }
   50%{
     opacity: 1;
-    bottom: calc(10% - 25px);
+    bottom: calc(15% - 25px);
   }
   75%{
     opacity: 1;
-    bottom: calc(10% - 50px);
+    bottom: calc(15% - 50px);
   }
   100%{
     opacity: 0;
-    bottom: calc(10% - 25px);
+    bottom: calc(15% - 25px);
+  }
+}
+
+.botonWhapp{
+  animation: animationBotonWhapp 1s ease-in-out infinite;
+}
+
+@keyframes animationBotonWhapp {
+  0%{
+    bottom: 9%;
+  }
+  50%{
+    bottom: 8%;
+  }
+  100%{
+    bottom: 9%;
+  }
+}
+
+.loading{
+  margin-top: 16px;
+  opacity: 0;
+  //animation-delay: 5s;
+  animation: loadingAnimation 5s ease-in-out infinite
+}
+
+@keyframes loadingAnimation {
+  0%{
+    margin-top: 16px;
+    opacity: 0;
+  }
+  10%{
+    margin-top: 0px;
+    opacity: 1;
+  }
+  89%{
+    margin-top: 0px;
+    opacity: 1;
+  }
+  90%{
+    margin-top: 0px;
+    opacity: 1;
+  }
+  100%{
+    margin-top: -16px;
+    opacity: 0;
   }
 }
