@@ -4,9 +4,10 @@ import infoJuguetes from './info';
 import PageV2 from './PageV2';
 import FloatingDiv from './FloatingDiv';
 import Loading from './Loading';
+import GridProduct from './GridProduct';
 
 const styleLanding = {
-    minWidth: '360px',
+    minWidth: '340px',
     maxWidth: '500px',
     display: 'flex',
     flexDirection: 'column',
@@ -16,6 +17,8 @@ const styleLanding = {
     paddingLeft: '8px',
     paddingRight: '8px',
 }
+
+//document.body.style.overflow = 'hidden';
 
 const LandingJuegav2 = ({onLoaded}) => {
     const [backgroundColor, setBackgroundColor] = useState('transparent');

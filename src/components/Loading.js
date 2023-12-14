@@ -12,7 +12,7 @@ const Loading = () => {
         position: 'fixed',
         left: 0,
         width: '100%',
-        height: '100vh',
+        height: '110vh',
         overflow: 'hidden',
         alignItems: 'center',
         justifyContent: 'center',
@@ -25,10 +25,9 @@ const Loading = () => {
         //display: 'flex',
         //top: 0,
     };
-
     const styleControl = {
         position: 'absolute',
-        top: 'calc(50% - calc(8px * 8))',
+        top: 'calc(50% - calc(8px * 12))',
         width: '64px',
         height: '64px',
         backgroundColor: 'transparent',
@@ -49,6 +48,7 @@ const Loading = () => {
         const timeoutTop = setTimeout(() => {
             setIsVisible(false);
             setTimeout(() => {
+                document.body.style.overflow = 'visible';
                 setIsDisplay(false); 
             }, 1000); 
         }, 4000);

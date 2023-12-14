@@ -34,10 +34,10 @@ const BotonWhatsApp = ({ onOpenPopup, messageWhapp }) => {
 
     return (
         <div className='botonWhapp' style={bannerStyle} >
-            <a href={`https://wa.me/51920212623?text=Juega !!! ... Quiero ${messageWhapp}`} target='_blank'>
+            <a href={`https://wa.me/51977598192?text=Juega !!! ... Quiero ${messageWhapp}`} target='_blank'>
                 <img src={whatsappIcon} className='borderAnimation-whatsapp' alt="WhatsApp" height = '100%' style={linkStyle} />
             </a>
-            <a href={`https://wa.me/51920212623?text=Juega !!! ... Quiero ${messageWhapp}`} target='_blank'>
+            <a href={`https://wa.me/51977598192?text=Juega !!! ... Quiero ${messageWhapp}`} target='_blank'>
                 <img src={messengerIcon} className='borderAnimation-messenger' alt="WhatsApp" height = '100%' style={linkStyle} />
             </a>
             <a onClick={onOpenPopup}>

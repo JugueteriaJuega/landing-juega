@@ -4,7 +4,7 @@ import tuImagen from '../resources/icons/nav1.png';
 const Spinner = () => {
     const bannerStyle = {
         position: 'absolute',
-        top: 'calc(50% + calc(8px * 0))',
+        top: 'calc(50% + calc(8px * -4))',
         left: 'calc(50% - calc(8px * 3))', 
         zIndex: 999,       
         cursor: 'pointer', 
