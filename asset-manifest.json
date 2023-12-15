@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/landing-juega/static/css/main.9b0dd122.css",
-    "main.js": "/landing-juega/static/js/main.b44ff8ba.js",
+    "main.css": "/landing-juega/static/css/main.a546da2d.css",
+    "main.js": "/landing-juega/static/js/main.a05dff23.js",
     "static/js/787.123bca69.chunk.js": "/landing-juega/static/js/787.123bca69.chunk.js",
     "static/media/vimp4": "/landing-juega/static/media/vid011032023100003.1dbb57d9846546ae761b.mp4",
     "static/media/video1.mp4": "/landing-juega/static/media/video1.74add6ca4a52bb2006be.mp4",
+    "static/media/img041032023120017.png": "/landing-juega/static/media/img041032023120017.8ab9e4c1b17da19d371a.png",
+    "static/media/img041032023120016.png": "/landing-juega/static/media/img041032023120016.ae14a5a7a66b053774d3.png",
     "static/media/8.png": "/landing-juega/static/media/8.7bfe9a4f75b502e5215c.png",
     "static/media/img031022023100009.png": "/landing-juega/static/media/img031022023100009.7bfe9a4f75b502e5215c.png",
+    "static/media/img041032023120018.png": "/landing-juega/static/media/img041032023120018.619372b9bd1a3a9292d2.png",
     "static/media/11.png": "/landing-juega/static/media/11.a20b2e0709d75d4dbcf3.png",
     "static/media/img031022023100012.png": "/landing-juega/static/media/img031022023100012.a20b2e0709d75d4dbcf3.png",
     "static/media/10.png": "/landing-juega/static/media/10.a2f1e9c00300fe655cb5.png",
@@ -42,18 +45,18 @@
     "static/media/nav1.png": "/landing-juega/static/media/nav1.ccb7fabc601c7a69797c.png",
     "static/media/nav2.png": "/landing-juega/static/media/nav2.75a7883a21a651d77e3d.png",
     "static/media/nav3.png": "/landing-juega/static/media/nav3.aacccfdd387feae224f4.png",
-    "static/media/arrowleft.png": "/landing-juega/static/media/arrowleft.ebdb87cd03b51dcb21a1.png",
     "static/media/messenger.png": "/landing-juega/static/media/messenger.6e4994e48e52315efe8c.png",
+    "static/media/menu_yellow.png": "/landing-juega/static/media/menu_yellow.f39bb11ec8a7faaa88fc.png",
     "static/media/play.png": "/landing-juega/static/media/play.dc61ecf90dad1a64179e.png",
     "static/media/nav4.png": "/landing-juega/static/media/nav4.0aed169eac94f7f2d094.png",
     "static/media/arrowUpDown.png": "/landing-juega/static/media/arrowUpDown.e624ca0a7d2c61c4119b.png",
     "index.html": "/landing-juega/index.html",
-    "main.9b0dd122.css.map": "/landing-juega/static/css/main.9b0dd122.css.map",
-    "main.b44ff8ba.js.map": "/landing-juega/static/js/main.b44ff8ba.js.map",
+    "main.a546da2d.css.map": "/landing-juega/static/css/main.a546da2d.css.map",
+    "main.a05dff23.js.map": "/landing-juega/static/js/main.a05dff23.js.map",
     "787.123bca69.chunk.js.map": "/landing-juega/static/js/787.123bca69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b0dd122.css",
-    "static/js/main.b44ff8ba.js"
+    "static/css/main.a546da2d.css",
+    "static/js/main.a05dff23.js"
   ]
 }
